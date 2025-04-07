@@ -1,0 +1,29 @@
+:root {
+  --bg: black;
+  --text: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+section{
+  min-height: 100vw;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+}
+
+
